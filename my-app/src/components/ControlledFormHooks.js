@@ -12,7 +12,7 @@
 //     return (
 //         <div>
 //             <h2>Please fill out the form below:</h2>
-//             {/* <form onSubmit={handleSubmit}> */}
+//             <form onSubmit={handleSubmit}>
 //                 <div>
 //                     <label htmlFor="id-name">Your Name:</label>
 //                     <input
