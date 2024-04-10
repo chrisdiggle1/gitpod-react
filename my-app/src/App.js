@@ -6,8 +6,10 @@ import './App.css';
 // import ControlledFormHooks from './components/ControlledFormHooks';
 // import UseStateWithArrays from './components/UseStateWithArrays';
 // import UseStateWithObjects from './components/UseStateWithObjects';
-import HTTPRequests from "./components/HTTPRequests";
-import HTTPPost from "./components/HTTPPost";
+// import HTTPRequests from "./components/HTTPRequests";
+// import HTTPPost from "./components/HTTPPost";
+import HTTPHooks from "./components/HTTPHooks";
+
 
 function App() {
   return (
@@ -18,8 +20,9 @@ function App() {
       {/* <ControlledFormHooks /> */}
       {/* <UseStateWithArrays /> */}
       {/* <UseStateWithObjects /> */}
-      <HTTPRequests />
-      <HTTPPost />
+      {/* <HTTPRequests /> */}
+      {/* <HTTPPost /> */}
+      <HTTPHooks />
     </div>
   );
 }
